@@ -51,24 +51,26 @@ export function HeroSection() {
     }
 
     function animate() {
+      if (!ctx) return; // Ensure ctx is not null
       requestAnimationFrame(animate);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-
+    
       particles.forEach(particle => {
         particle.x += particle.speedX;
         particle.y += particle.speedY;
-
+    
         if (particle.x > canvas.width) particle.x = 0;
         if (particle.x < 0) particle.x = canvas.width;
         if (particle.y > canvas.height) particle.y = 0;
         if (particle.y < 0) particle.y = canvas.height;
-
+    
         ctx.fillStyle = particle.color;
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
         ctx.fill();
       });
     }
+    
 
     animate();
 
