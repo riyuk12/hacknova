@@ -116,7 +116,7 @@ export function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className='h-[300px] w-auto overflow-hidden'>
+          <div className="h-[150px] md:h-[200px] lg:h-[300px] w-auto overflow-hidden">
           <img src="/nexifyhero.png" alt="hero image" className="h-full w-full object-contain"  /> 
           </div>
           <span className="text-foreground">2025</span>
