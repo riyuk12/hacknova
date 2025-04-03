@@ -8,8 +8,8 @@ import { Toaster as SonnerToaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'HackNova - Innovate, Create, Transform',
-  description: 'Join HackNova, the premier hackathon for innovators and creators.',
+  title: 'Nexify - Innovate, Create, Transform',
+  description: 'Join Nexify, the premier hackathon for innovators and creators.',
 };
 
 export default function RootLayout({

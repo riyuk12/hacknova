@@ -30,64 +30,27 @@ export function PrizesSection() {
     {
       icon: <Trophy className="h-12 w-12 text-amber-500" />,
       title: "Grand Prize",
-      value: "$20,000",
+      value: "₹15,000",
       description: "For the most innovative and impactful overall project",
       color: "from-amber-500 to-yellow-500"
     },
     {
       icon: <Award className="h-12 w-12 text-gray-300" />,
       title: "Runner Up",
-      value: "$10,000",
+      value: "₹10,000",
       description: "For the second-place team with exceptional execution",
       color: "from-gray-400 to-gray-300"
     },
     {
       icon: <Gift className="h-12 w-12 text-amber-700" />,
       title: "Third Place",
-      value: "$5,000",
+      value: "₹5,000",
       description: "For the third-place team showing great potential",
       color: "from-amber-700 to-amber-600"
     },
   ];
 
-  const categoryPrizes = [
-    {
-      icon: <Cpu className="h-8 w-8 text-purple-500" />,
-      title: "Best AI/ML Implementation",
-      value: "$3,000",
-      sponsor: "TechGiant"
-    },
-    {
-      icon: <Cloud className="h-8 w-8 text-cyan-500" />,
-      title: "Best Cloud Solution",
-      value: "$3,000",
-      sponsor: "CloudSphere"
-    },
-    {
-      icon: <Database className="h-8 w-8 text-emerald-500" />,
-      title: "Best Data Visualization",
-      value: "$2,500",
-      sponsor: "DataFlow"
-    },
-    {
-      icon: <Globe className="h-8 w-8 text-blue-500" />,
-      title: "Best Social Impact",
-      value: "$2,500",
-      sponsor: "CodeCraft"
-    },
-    {
-      icon: <Smartphone className="h-8 w-8 text-pink-500" />,
-      title: "Best Mobile App",
-      value: "$2,000",
-      sponsor: "InnovateLabs"
-    },
-    {
-      icon: <Zap className="h-8 w-8 text-orange-500" />,
-      title: "Most Technical",
-      value: "$2,000",
-      sponsor: "FutureTech"
-    },
-  ];
+  
 
   return (
     <section id="prizes" className="py-20 bg-background relative overflow-hidden">
@@ -109,7 +72,7 @@ export function PrizesSection() {
             What You Can <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Win</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Over $50,000 in prizes, opportunities, and perks await the most innovative teams.
+            Over ₹50,000 in prizes, and perks await the most innovative teams.
           </p>
         </motion.div>
         
@@ -145,51 +108,7 @@ export function PrizesSection() {
           ))}
         </motion.div>
         
-        {/* Category Prizes */}
-        <motion.h3 
-          initial={{ opacity: 0, x: -20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-2xl font-bold mb-8 text-center"
-        >
-          <span className="inline-block px-4 py-1 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-full">
-            Category Prizes
-          </span>
-        </motion.h3>
         
-        <motion.div
-          variants={container}
-          initial="hidden"
-          animate={isInView ? "show" : "hidden"}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
-        >
-          {categoryPrizes.map((prize, index) => (
-            <motion.div 
-              key={index} 
-              variants={item}
-              whileHover={{ scale: 1.03 }}
-            >
-              <Card className="border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-all duration-300 overflow-hidden group">
-                <CardContent className="p-5 flex items-center gap-4">
-                  <div className="relative flex-shrink-0">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-full blur-lg transform group-hover:scale-110 transition-transform duration-300"></div>
-                    <div className="relative">{prize.icon}</div>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold group-hover:text-primary transition-colors">{prize.title}</h3>
-                    <div className="flex items-center justify-between">
-                      <p className="text-xl font-bold text-purple-500">{prize.value}</p>
-                      <Badge variant="outline" className="ml-2 border-cyan-500/50 text-cyan-400">
-                        by {prize.sponsor}
-                      </Badge>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
-        </motion.div>
         
         {/* Additional Prizes */}
         <motion.div

@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Clock, Coffee, Code, Lightbulb, Rocket, Trophy, Users, Utensils } from 'lucide-react';
+import { Calendar, Clock, Coffee, Code, Lightbulb, Rocket, Trophy, Users, Utensils ,Mic,Award} from 'lucide-react';
 
 export function TimelineSection() {
   const ref = useRef(null);
@@ -12,41 +12,23 @@ export function TimelineSection() {
 
   const timelineEvents = [
     {
-      day: "Day 1 - Friday, June 15",
+      day: "Day 1 - Wednesday, April 16",
       events: [
-        { time: "3:00 PM", title: "Check-in & Registration", icon: <Users className="h-5 w-5" />, description: "Arrive at Innovation Hall, collect your welcome pack and swag" },
-        { time: "5:00 PM", title: "Opening Ceremony", icon: <Rocket className="h-5 w-5" />, description: "Welcome address, sponsor introductions, and event kickoff" },
-        { time: "6:30 PM", title: "Team Formation", icon: <Users className="h-5 w-5" />, description: "Find teammates or join our team matching session" },
-        { time: "7:30 PM", title: "Dinner", icon: <Utensils className="h-5 w-5" />, description: "Fuel up with a delicious catered dinner" },
-        { time: "8:30 PM", title: "Hacking Begins!", icon: <Code className="h-5 w-5" />, description: "Start building your innovative projects" },
-        { time: "10:00 PM", title: "Workshop: API Mastery", icon: <Lightbulb className="h-5 w-5" />, description: "Learn how to leverage sponsor APIs for your project" },
-        { time: "12:00 AM", title: "Midnight Snack", icon: <Coffee className="h-5 w-5" />, description: "Late night energy boost" },
+        { time: "9:00 AM", title: "Registrations & Check-in", icon: <Users className="h-5 w-5" />, description: "Arrive at Innovation Hall, collect your welcome pack and swag" },
+        { time: "11:00 AM", title: "Speaker Session", icon: <Mic className="h-5 w-5" />, description: "Listen to industry experts share insights and experiences" },
+        { time: "12:30 PM", title: "Hackathon Begins", icon: <Code className="h-5 w-5" />, description: "Start working on your projects and bring ideas to life" },
+        { time: "2:00 PM", title: "Lunch Break", icon: <Utensils className="h-5 w-5" />, description: "Enjoy a delicious meal to recharge" },
+        { time: "5:00 PM", title: "Evening Snacks", icon: <Coffee className="h-5 w-5" />, description: "Grab some light snacks and refreshments" },
+        { time: "8:00 PM", title: "Dinner", icon: <Utensils className="h-5 w-5" />, description: "Savor a hearty meal to keep going" },
+        { time: "Night", title: "Tea/Coffee Breaks", icon: <Coffee className="h-5 w-5" />, description: "Stay energized with warm beverages throughout the night" },
       ]
     },
     {
-      day: "Day 2 - Saturday, June 16",
+      day: "Day 2 - Thursday, April 17",
       events: [
-        { time: "8:00 AM", title: "Breakfast", icon: <Utensils className="h-5 w-5" />, description: "Start your day with a nutritious breakfast" },
-        { time: "10:00 AM", title: "Workshop: UI/UX Design", icon: <Lightbulb className="h-5 w-5" />, description: "Create beautiful and functional interfaces" },
-        { time: "12:30 PM", title: "Lunch", icon: <Utensils className="h-5 w-5" />, description: "Refuel with a variety of lunch options" },
-        { time: "2:00 PM", title: "Mentor Sessions", icon: <Users className="h-5 w-5" />, description: "One-on-one guidance from industry experts" },
-        { time: "4:00 PM", title: "Workshop: Pitch Perfect", icon: <Lightbulb className="h-5 w-5" />, description: "Learn how to effectively present your project" },
-        { time: "6:30 PM", title: "Dinner", icon: <Utensils className="h-5 w-5" />, description: "Enjoy a hearty dinner to keep you going" },
-        { time: "8:00 PM", title: "Gaming Tournament", icon: <Trophy className="h-5 w-5" />, description: "Take a break with some friendly competition" },
-        { time: "11:00 PM", title: "Late Night Snack", icon: <Coffee className="h-5 w-5" />, description: "Midnight energy boost" },
-      ]
-    },
-    {
-      day: "Day 3 - Sunday, June 17",
-      events: [
-        { time: "8:00 AM", title: "Breakfast", icon: <Utensils className="h-5 w-5" />, description: "Final day breakfast to power through" },
-        { time: "10:00 AM", title: "Submission Workshop", icon: <Lightbulb className="h-5 w-5" />, description: "Get help finalizing your project submission" },
-        { time: "12:00 PM", title: "Lunch", icon: <Utensils className="h-5 w-5" />, description: "Last meal before submissions close" },
-        { time: "2:00 PM", title: "Hacking Ends", icon: <Clock className="h-5 w-5" />, description: "All projects must be submitted" },
-        { time: "2:30 PM", title: "Project Expo", icon: <Rocket className="h-5 w-5" />, description: "Showcase your creation to judges and attendees" },
-        { time: "4:30 PM", title: "Judging Deliberation", icon: <Users className="h-5 w-5" />, description: "Judges review all projects and select winners" },
-        { time: "5:30 PM", title: "Closing Ceremony", icon: <Trophy className="h-5 w-5" />, description: "Awards presentation and final remarks" },
-        { time: "7:00 PM", title: "Farewell", icon: <Users className="h-5 w-5" />, description: "Until next year, HackNova!" },
+        { time: "7:00 AM", title: "Breakfast", icon: <Utensils className="h-5 w-5" />, description: "Start your day with a hearty breakfast" },
+        { time: "1:00 PM", title: "Snacks", icon: <Coffee className="h-5 w-5" />, description: "Quick energy boost to keep you going" },
+        { time: "3:00 PM - 6:00 PM", title: "Final Judging & Closing Ceremony", icon: <Award className="h-5 w-5" />, description: "Present your projects, witness the judging, and celebrate the winners" },
       ]
     }
   ];
@@ -87,7 +69,7 @@ export function TimelineSection() {
             Event <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Timeline</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Your 48-hour journey from idea to innovation. Here's what to expect at HackNova.
+            Your 24-hour journey from idea to innovation. Here's what to expect at Nexify.
           </p>
         </motion.div>
         
@@ -153,7 +135,7 @@ export function TimelineSection() {
         >
           <div className="inline-block p-4 bg-card/50 backdrop-blur-sm rounded-lg border border-border/50">
             <p className="text-lg text-foreground/80">
-              <span className="font-bold text-primary">Note:</span> Schedule is subject to minor changes. Download our mobile app for real-time updates.
+              <span className="font-bold text-primary">Note:</span> Schedule is subject to minor changes. You will be notified in prior in case of any changes.
             </p>
           </div>
         </motion.div>

@@ -66,7 +66,7 @@ export function PartnersSection() {
             Our Amazing <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Partners</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            HackNova is made possible by the generous support of our industry-leading partners.
+            Nexify is made possible by the generous support of our industry-leading partners.
           </p>
         </motion.div>
         
@@ -81,7 +81,7 @@ export function PartnersSection() {
               className="text-2xl font-bold mb-8 text-center"
             >
               <span className="inline-block px-4 py-1 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-full">
-                Platinum Partners
+                Education Partners
               </span>
             </motion.h3>
             
@@ -119,7 +119,7 @@ export function PartnersSection() {
               className="text-2xl font-bold mb-8 text-center"
             >
               <span className="inline-block px-4 py-1 bg-gradient-to-r from-amber-500/20 to-yellow-500/20 rounded-full">
-                Gold Partners
+                Sponsoring Partners
               </span>
             </motion.h3>
             
@@ -147,43 +147,6 @@ export function PartnersSection() {
             </motion.div>
           </div>
           
-          {/* Silver Partners */}
-          <div>
-            <motion.h3 
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="text-2xl font-bold mb-8 text-center"
-            >
-              <span className="inline-block px-4 py-1 bg-gradient-to-r from-gray-400/20 to-gray-500/20 rounded-full">
-                Silver Partners
-              </span>
-            </motion.h3>
-            
-            <motion.div 
-              variants={container}
-              initial="hidden"
-              animate={isInView ? "show" : "hidden"}
-              className="flex flex-wrap justify-center gap-4"
-            >
-              {silverPartners.map((partner, index) => (
-                <motion.div 
-                  key={index} 
-                  variants={item}
-                  whileHover={{ scale: 1.05 }}
-                  className="bg-card/30 backdrop-blur-sm p-4 rounded-xl border border-border/50 flex items-center justify-center"
-                  style={{ width: 180, height: 90 }}
-                >
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name} 
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-                  />
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
         </div>
         
         <motion.div
@@ -196,7 +159,7 @@ export function PartnersSection() {
           <Button 
             variant="outline" 
             className="border-purple-500 text-foreground hover:bg-purple-500/10"
-            onClick={() => window.open('mailto:partners@hacknova.example.com', '_blank')}
+            onClick={() => window.open('mailto:partners@Nexify.example.com', '_blank')}
           >
             Become a Partner <ExternalLink className="ml-2 h-4 w-4" />
           </Button>

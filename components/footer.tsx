@@ -25,7 +25,7 @@ export function Footer() {
             >
               <Rocket className="h-7 w-7 text-primary" />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">
-                HackNova
+                Nexify
               </span>
             </motion.div>
             <p className="text-foreground/70 mb-4">
@@ -69,7 +69,8 @@ export function Footer() {
             </ul>
           </div>
           
-          <div>
+          {/* resources add */}
+          {/* <div>
             <h3 className="font-bold text-lg mb-4">Resources</h3>
             <ul className="space-y-2">
               {['Code of Conduct', 'Rules', 'Judging Criteria', 'Sponsor Guide', 'Privacy Policy'].map((item) => (
@@ -84,22 +85,23 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
           
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-foreground/70">
                 <Mail className="h-4 w-4 text-purple-500" />
-                <a href="mailto:info@hacknova.example.com" className="hover:text-purple-500">
-                  info@hacknova.example.com
+                <a href="mailto:zenithsushant.events@gmail.com" className="hover:text-purple-500">
+                zenithsushant.events@gmail.com
                 </a>
               </li>
               <li className="text-foreground/70">
-                Tech University Campus,<br />
-                Innovation Hall,<br />
-                123 Hacker Way,<br />
-                San Francisco, CA 94107
+                Sushant University,Gurugram,<br />
+                School of Engineering and Technology<br />
+              </li>
+              <li className="text-foreground/70">
+
               </li>
             </ul>
           </div>
@@ -109,11 +111,11 @@ export function Footer() {
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-foreground/60 text-sm">
-            &copy; {currentYear} HackNova. All rights reserved.
+            &copy; {currentYear} Nexify. All rights reserved.
           </p>
           
           <p className="text-foreground/60 text-sm flex items-center">
-            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by the HackNova Team
+            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by the Zenith Club
           </p>
         </div>
       </div>

@@ -38,8 +38,8 @@ export function WhyJoinSection() {
   const features = [
     {
       icon: <Code className="h-10 w-10 text-purple-500" />,
-      title: "Learn New Technologies",
-      description: "Dive into cutting-edge tech stacks and expand your coding skills with expert mentors and workshops."
+      title: "Uninterrupted coding",
+      description: "Dive into a 24 hourd of coding, creativity, and collaboration with no distractions."
     },
     {
       icon: <Users className="h-10 w-10 text-cyan-500" />,
@@ -47,14 +47,9 @@ export function WhyJoinSection() {
       description: "Connect with like-minded innovators, industry professionals, and potential future collaborators."
     },
     {
-      icon: <Lightbulb className="h-10 w-10 text-yellow-500" />,
-      title: "Bring Ideas to Life",
-      description: "Transform your concepts into working prototypes with the support of our resources and mentors."
-    },
-    {
       icon: <Trophy className="h-10 w-10 text-amber-500" />,
       title: "Win Amazing Prizes",
-      description: "Compete for over $50,000 in prizes, including cash awards, tech gadgets, and startup opportunities."
+      description: "Compete for over ₹50000 worth in prizes, including cash awards, and goodies."
     },
     {
       icon: <Cpu className="h-10 w-10 text-emerald-500" />,
@@ -67,19 +62,9 @@ export function WhyJoinSection() {
       description: "Form bonds that extend beyond the hackathon as you collaborate, problem-solve, and celebrate together."
     },
     {
-      icon: <Globe className="h-10 w-10 text-blue-500" />,
-      title: "Global Community",
-      description: "Join participants from over 50 countries in a diverse, inclusive environment of innovation."
-    },
-    {
       icon: <Zap className="h-10 w-10 text-orange-500" />,
       title: "Boost Your Career",
       description: "Enhance your portfolio, gain real-world experience, and connect with potential employers."
-    },
-    {
-      icon: <Rocket className="h-10 w-10 text-indigo-500" />,
-      title: "Launch Your Startup",
-      description: "Many successful startups began as hackathon projects. Yours could be next!"
     }
   ];
 
@@ -100,10 +85,10 @@ export function WhyJoinSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Why Join <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">HackNova</span>?
+            Why Join <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Nexify</span>?
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            More than just a hackathon, HackNova is a launchpad for innovation, collaboration, and personal growth.
+            More than just a hackathon, Nexify is a launchpad for innovation, collaboration, and personal growth.
           </p>
         </motion.div>
         
@@ -139,9 +124,9 @@ export function WhyJoinSection() {
         >
           <div className="inline-block p-4 bg-card/50 backdrop-blur-sm rounded-lg border border-border/50">
             <p className="text-lg text-foreground/80">
-              <span className="font-bold text-primary">500+</span> Hackers • 
-              <span className="font-bold text-primary ml-2">48</span> Hours • 
-              <span className="font-bold text-primary ml-2">$50K+</span> in Prizes
+              <span className="font-bold text-primary">150+</span> Hackers • 
+              <span className="font-bold text-primary ml-2">24</span> Hours • 
+              <span className="font-bold text-primary ml-2">₹50000</span> worth in Prizes
             </p>
           </div>
         </motion.div>

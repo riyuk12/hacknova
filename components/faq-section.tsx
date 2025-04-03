@@ -16,16 +16,21 @@ export function FAQSection() {
 
   const faqs = [
     {
-      question: "Who can participate in HackNova?",
-      answer: "HackNova is open to all students, professionals, and tech enthusiasts. Whether you're a coding novice or an experienced developer, everyone is welcome to join. We encourage diversity and teams with mixed skill sets."
+      question: "Who can participate in Nexify?",
+      answer: "Nexify is open to University Students of all years. Whether you're a coding novice or an experienced developer, everyone is welcome to join. We encourage diversity and teams with mixed skill sets."
+    },
+
+    {
+    "question": "What are the prizes?",
+    "answer": "The total prize pool is between ₹50,000, with a split of 30000 monetary and 20000 in goodies. The Event will have three winners:\n- 1st place: ₹15,000\n- 2nd place: ₹10,000\n- 3rd place: ₹5,000"
     },
     {
       question: "Do I need to have a team before registering?",
-      answer: "No, you can register individually and form a team at the event. We'll have team formation activities to help you find teammates with complementary skills. Teams can have up to 4 members."
+      answer: "Yes, you should register with a team of 2-4 members. "
     },
     {
       question: "Is there a registration fee?",
-      answer: "No, HackNova is completely free to attend. We provide meals, snacks, workspace, internet, and swag at no cost to participants, thanks to our generous sponsors."
+      answer: "No, Nexify is completely free to attend. We provide meals, snacks, workspace, internet, and swag at no cost to participants, thanks to our generous sponsors."
     },
     {
       question: "What should I bring to the hackathon?",
@@ -40,12 +45,16 @@ export function FAQSection() {
       answer: "Yes! We'll have industry experts providing mentorship throughout the event. Additionally, we'll host workshops on various technologies, APIs, and skills to help you build better projects."
     },
     {
-      question: "What kind of projects can I build?",
-      answer: "You can build any software or hardware project that interests you! We have various prize categories, but you're not limited to those themes. Web apps, mobile apps, games, IoT solutions, AI/ML projects - all are welcome."
+      question: "When will the themes be released?",
+      answer: "The Themes will be released 1 week prior to the event, keep an eye out on our social media channels for hints and updates."
     },
     {
-      question: "Is HackNova an in-person or virtual event?",
-      answer: "HackNova 2025 is primarily an in-person event held at Tech University Campus. However, we do offer limited virtual participation options for those unable to attend physically."
+      question: "What kind of projects can I build?",
+      answer: "You can refer to the Themes Section for ideas. Projects can be web apps, mobile apps, hardware projects, or anything innovative that solves a problem. We encourage creativity and originality."
+    },
+    {
+      question: "Is Nexify an in-person or virtual event?",
+      answer: "Nexify 2025 is primarily an in-person event held at School of Engineering Campus at Sushant University."
     },
     {
       question: "How are projects judged?",
@@ -53,7 +62,7 @@ export function FAQSection() {
     },
     {
       question: "I don't have much coding experience. Can I still participate?",
-      answer: "Absolutely! HackNova is for everyone, regardless of experience level. We have beginner-friendly workshops, mentors to guide you, and prizes specifically for newcomers. It's a great learning opportunity!"
+      answer: "Absolutely! Nexify is for everyone, regardless of experience level. We have beginner-friendly workshops, mentors to guide you, and prizes specifically for newcomers. It's a great learning opportunity!"
     }
   ];
 
@@ -93,7 +102,11 @@ export function FAQSection() {
             Frequently Asked <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Questions</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Everything you need to know about HackNova. Can't find your answer? Contact us at support@hacknova.example.com
+            Everything you need to know about Nexify. Can't find your answer? Contact us at
+            <br /> 
+            <a href="mailto:zenithsushant.events@gmail.com" className="text-purple-500 hover:underline">
+              zenithsushant.events@gmail.com
+            </a>
           </p>
         </motion.div>
         
@@ -133,8 +146,8 @@ export function FAQSection() {
           <div className="inline-block p-4 bg-card/50 backdrop-blur-sm rounded-lg border border-border/50">
             <p className="text-lg text-foreground/80">
               Still have questions? Reach out to us at{' '}
-              <a href="mailto:info@hacknova.example.com" className="text-purple-500 hover:underline">
-                info@hacknova.example.com
+              <a href="mailto:zenithsushant.events@gmail.com" className="text-purple-500 hover:underline">
+                zenithsushant.events@gmail.com
               </a>
             </p>
           </div>

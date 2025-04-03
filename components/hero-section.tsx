@@ -106,7 +106,7 @@ export function HeroSection() {
           className="mb-6 inline-flex"
         >
           <Badge variant="outline" className="px-4 py-2 text-lg border-purple-500 bg-background/50 backdrop-blur-sm">
-            <Calendar className="mr-2 h-4 w-4" /> June 15-17, 2025
+            <Calendar className="mr-2 h-4 w-4" /> April 16-17, 2025
           </Badge>
         </motion.div>
         
@@ -116,7 +116,7 @@ export function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          HackNova <span className="text-foreground">2025</span>
+          Nexify <span className="text-foreground">2025</span>
         </motion.h1>
         
         <motion.p 
@@ -125,8 +125,8 @@ export function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Ignite your creativity, code the future, and launch your ideas into the cosmos.
-          Join 500+ innovators for 48 hours of hacking, learning, and building.
+          Ignite your creativity, code the future.
+          Join 100+ innovators for 24 hours of hacking, learning, and building.
         </motion.p>
         
         <motion.div 
@@ -167,7 +167,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <MapPin className="h-5 w-5 text-purple-500" />
-          <span className="text-foreground/80">Tech University Campus, Innovation Hall</span>
+          <span className="text-foreground/80">Sushant University, School of Engineering</span>
         </motion.div>
       </motion.div>
       
