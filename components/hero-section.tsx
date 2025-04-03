@@ -111,12 +111,15 @@ export function HeroSection() {
         </motion.div>
         
         <motion.h1 
-          className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500"
+          className="text-5xl flex flex-col justify-center items-center md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Nexify <span className="text-foreground">2025</span>
+          <div className='h-[300px] w-auto overflow-hidden'>
+          <img src="/nexifyhero.png" alt="hero image" className="h-full w-full object-contain"  /> 
+          </div>
+          <span className="text-foreground">2025</span>
         </motion.h1>
         
         <motion.p 
@@ -172,40 +175,42 @@ export function HeroSection() {
       </motion.div>
       
       <motion.div 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ 
-          duration: 0.8, 
-          delay: 1.4,
-          repeat: Infinity,
-          repeatType: "reverse",
-          repeatDelay: 0.5
-        }}
-      >
-        <Button 
-          variant="ghost" 
-          size="sm"
-          className="text-foreground/60 hover:text-foreground"
-          onClick={() => {
-            const element = document.getElementById('about');
-            if (element) {
-              element.scrollIntoView({ behavior: 'smooth' });
-            }
-          }}
-        >
-          <motion.div
-            animate={{ y: [0, 5, 0] }}
-            transition={{ 
-              duration: 1.5, 
-              repeat: Infinity,
-              repeatType: "loop"
-            }}
-          >
-            Scroll Down
-          </motion.div>
-        </Button>
-      </motion.div>
+  className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ 
+    duration: 0.8, 
+    delay: 1.4,
+    repeat: Infinity,
+    repeatType: "reverse",
+    repeatDelay: 0.5
+  }}
+>
+  <Button 
+    variant="ghost" 
+    size="sm"
+    className="text-foreground/60 hover:text-foreground flex items-center justify-center"
+    onClick={() => {
+      const element = document.getElementById('about');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }}
+  >
+    <motion.div
+      className="flex items-center justify-center"
+      animate={{ y: [0, 5, 0] }}
+      transition={{ 
+        duration: 1.5, 
+        repeat: Infinity,
+        repeatType: "loop"
+      }}
+    >
+      Scroll Down
+    </motion.div>
+  </Button>
+</motion.div>
+
     </motion.div>
   );
 }

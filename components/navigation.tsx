@@ -43,7 +43,9 @@ export function Navigation() {
           >
             <Rocket className="h-8 w-8 text-primary" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">
-              Nexify
+              <div className='h-[40px] w-auto overflow-hidden '>
+                <img src="/nexifyhero.png" alt="nexify logo"  className="h-full w-full object-contain" />
+              </div>
             </span>
           </motion.div>
 

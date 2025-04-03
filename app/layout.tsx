@@ -19,6 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="Nexify25 Logo.png" />
+      </head>
+
       <body className={`${inter.className} dark`}>
         <ThemeProvider
           attribute="class"

@@ -22,7 +22,7 @@ export function FAQSection() {
 
     {
     question: "What are the prizes?",
-    answer: "The total prize pool is between ₹50,000, with a split of 30000 monetary and 20000 in goodies. The Event will have three winners: 1st place: ₹15,000 2nd place: ₹10,000  3rd place: ₹5,000"
+    answer: "The total prize pool is worth ₹50,000, with a split of ₹30000 monetary and ₹20000 in goodies. The Event will have three winners: 1st place: ₹15,000 2nd place: ₹10,000  3rd place: ₹5,000"
     },
     {
       question: "Do I need to have a team before registering?",
@@ -40,17 +40,17 @@ export function FAQSection() {
       question: "Can I start working on my project before the event?",
       answer: "No, all coding and design work must begin at the hackathon. You can brainstorm ideas beforehand, but implementation should start when the hacking period officially begins."
     },
-    {
-      question: "When will the themes be released?",
-      answer: "The Themes will be released 1 week prior to the event, keep an eye out on our social media channels for hints and updates."
-    },
+    // {
+    //   question: "When will the themes be released?",
+    //   answer: "The Themes will be released 1 week prior to the event, keep an eye out on our social media channels for hints and updates."
+    // },
     {
       question: "What kind of projects can I build?",
       answer: "You can refer to the Themes Section for ideas. Projects can be web apps, mobile apps, hardware projects, or anything innovative that solves a problem. We encourage creativity and originality."
     },
     {
       question: "Is Nexify an in-person or virtual event?",
-      answer: "Nexify 2025 is primarily an in-person event held at School of Engineering Campus at Sushant University."
+      answer: "Nexify 2025 is in-person event held at School of Engineering Campus at Sushant University, Gurugram."
     },
     {
       question: "How are projects judged?",
