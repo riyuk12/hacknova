@@ -21,8 +21,8 @@ export function FAQSection() {
     },
 
     {
-    "question": "What are the prizes?",
-    "answer": "The total prize pool is between ₹50,000, with a split of 30000 monetary and 20000 in goodies. The Event will have three winners:\n- 1st place: ₹15,000\n- 2nd place: ₹10,000\n- 3rd place: ₹5,000"
+    question: "What are the prizes?",
+    answer: "The total prize pool is between ₹50,000, with a split of 30000 monetary and 20000 in goodies. The Event will have three winners: 1st place: ₹15,000 2nd place: ₹10,000  3rd place: ₹5,000"
     },
     {
       question: "Do I need to have a team before registering?",
@@ -39,10 +39,6 @@ export function FAQSection() {
     {
       question: "Can I start working on my project before the event?",
       answer: "No, all coding and design work must begin at the hackathon. You can brainstorm ideas beforehand, but implementation should start when the hacking period officially begins."
-    },
-    {
-      question: "Will there be mentors and workshops?",
-      answer: "Yes! We'll have industry experts providing mentorship throughout the event. Additionally, we'll host workshops on various technologies, APIs, and skills to help you build better projects."
     },
     {
       question: "When will the themes be released?",

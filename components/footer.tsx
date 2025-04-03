@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { Rocket, Github, Twitter, Instagram, Linkedin, Mail, Heart } from 'lucide-react';
+import { Rocket,Instagram, Linkedin, Mail, Heart } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,17 +32,16 @@ export function Footer() {
               Ignite your creativity, code the future, and launch your ideas into the cosmos.
             </p>
             <div className="flex gap-3">
+              
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-purple-500/10 hover:text-purple-500">
-                <Twitter className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="rounded-full hover:bg-purple-500/10 hover:text-purple-500">
+              <a href="https://www.instagram.com/su_zenith/" target='blank' rel="noopener noreferrer">
                 <Instagram className="h-5 w-5" />
+              </a>
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-purple-500/10 hover:text-purple-500">
-                <Linkedin className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="rounded-full hover:bg-purple-500/10 hover:text-purple-500">
-                <Github className="h-5 w-5" />
+                <a href="https://www.linkedin.com/company/zenithofsu/" target='blank' rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>
@@ -101,7 +100,7 @@ export function Footer() {
                 School of Engineering and Technology<br />
               </li>
               <li className="text-foreground/70">
-
+              <div className="max-width:100%;overflow:hidden;color:red;width:300px;height:100px;"><div id="gmap-canvas" className="height:100%; width:100%;max-width:100%;"><iframe className="height:100%;width:100%;border:0;" src="https://www.google.com/maps/embed/v1/place?q=sushant+university+,+gurugram&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a className="google-map-html" href="https://www.bootstrapskins.com/themes" id="grab-map-data"></a></div>
               </li>
             </ul>
           </div>
