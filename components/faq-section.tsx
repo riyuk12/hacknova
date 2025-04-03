@@ -34,7 +34,7 @@ export function FAQSection() {
     },
     {
       question: "What should I bring to the hackathon?",
-      answer: "Bring your laptop, charger, any hardware you plan to work with, and personal items for an overnight stay (toothbrush, sleeping bag, etc.). We'll provide food, drinks, and a comfortable hacking environment."
+      answer: "Bring your laptop, charger, any hardware you plan to work with, and personal items for an overnight stay (toothbrush,charger etc.). We'll provide food, drinks, and a comfortable hacking environment."
     },
     {
       question: "Can I start working on my project before the event?",
@@ -54,7 +54,7 @@ export function FAQSection() {
     },
     {
       question: "How are projects judged?",
-      answer: "Projects are evaluated based on innovation, technical complexity, design/UX, practicality, and presentation quality. Our judging panel includes industry professionals, sponsors, and tech experts."
+      answer: "Projects are evaluated based on innovation, technical complexity, design/UX, practicality, and presentation quality."
     },
     {
       question: "I don't have much coding experience. Can I still participate?",
