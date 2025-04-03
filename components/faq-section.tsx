@@ -100,8 +100,8 @@ export function FAQSection() {
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
             Everything you need to know about Nexify. Can't find your answer? Contact us at
             <br /> 
-            <a href="mailto:zenithsushant.events@gmail.com" className="text-purple-500 hover:underline">
-              zenithsushant.events@gmail.com
+            <a href="mailto:contact@zenithclub.in" className="text-purple-500 hover:underline">
+              contact@zenithclub.in
             </a>
           </p>
         </motion.div>
@@ -142,8 +142,8 @@ export function FAQSection() {
           <div className="inline-block p-4 bg-card/50 backdrop-blur-sm rounded-lg border border-border/50">
             <p className="text-lg text-foreground/80">
               Still have questions? Reach out to us at{' '}
-              <a href="mailto:zenithsushant.events@gmail.com" className="text-purple-500 hover:underline">
-                zenithsushant.events@gmail.com
+              <a href="mailto:contact@zenithclub.in" className="text-purple-500 hover:underline">
+                contact@zenithclub.in
               </a>
             </p>
           </div>

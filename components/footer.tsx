@@ -91,8 +91,8 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-foreground/70">
                 <Mail className="h-4 w-4 text-purple-500" />
-                <a href="mailto:zenithsushant.events@gmail.com" className="hover:text-purple-500">
-                zenithsushant.events@gmail.com
+                <a href="mailto:contact@zenithclub.in" className="hover:text-purple-500">
+                contact@zenithclub.in
                 </a>
               </li>
               <li className="text-foreground/70">
