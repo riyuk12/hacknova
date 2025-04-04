@@ -64,7 +64,7 @@ export function Navigation() {
             <Button 
               variant="default" 
               className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700"
-              onClick={() => window.open('https://forms.gle/example', '_blank')}
+              onClick={() => window.open('https://unstop.com/p/nexify25-school-of-engineering-and-technology-sushant-university-gurgaon-1457285', '_blank')}
             >
               Register Now
             </Button>
@@ -117,7 +117,7 @@ export function Navigation() {
                 variant="default" 
                 className="mt-4 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700"
                 onClick={() => {
-                  window.open('https://forms.gle/example', '_blank');
+                  window.open('https://unstop.com/p/nexify25-school-of-engineering-and-technology-sushant-university-gurgaon-1457285', '_blank');
                   setMobileMenuOpen(false);
                 }}
               >
