@@ -25,26 +25,13 @@ export function PartnersSection() {
   };
 
   const platinumPartners = [
-    { name: "TechGiant", logo: "https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=200&h=100&auto=format&fit=crop" },
-    { name: "CloudSphere", logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=200&h=100&auto=format&fit=crop" },
-    { name: "DataFlow", logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=200&h=100&auto=format&fit=crop" },
+    { name: "Sunstone", logo: "https://media.discordapp.net/attachments/1293272278250815508/1357598147341320262/Sunstone_BLUE_2_page-0001.jpg?ex=67f0c94d&is=67ef77cd&hm=bb560eeb5e552bd238ba97e26569dec76cf9b346270d8ab54317e8a7f8209e7e&=&format=webp&width=3238&height=422 " },
   ];
 
   const goldPartners = [
-    { name: "CodeCraft", logo: "https://images.unsplash.com/photo-1516876437184-593fda40c7ce?q=80&w=150&h=80&auto=format&fit=crop" },
-    { name: "InnovateLabs", logo: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?q=80&w=150&h=80&auto=format&fit=crop" },
-    { name: "FutureTech", logo: "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?q=80&w=150&h=80&auto=format&fit=crop" },
-    { name: "DevSolutions", logo: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=150&h=80&auto=format&fit=crop" },
+    { name: "Merelyn Studio", logo: "https://media.discordapp.net/attachments/1293272278250815508/1357598685353218068/1.png?ex=67f0c9cd&is=67ef784d&hm=5a55b10292c687615aa25f0328940f4be41d22307937cd591288c19bb71b9dcb&=&format=webp&quality=lossless&width=1000&height=1000 " },
   ];
 
-  const silverPartners = [
-    { name: "ByteWorks", logo: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=120&h=60&auto=format&fit=crop" },
-    { name: "QuantumSoft", logo: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=120&h=60&auto=format&fit=crop" },
-    { name: "NexGen", logo: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=120&h=60&auto=format&fit=crop" },
-    { name: "AlgoRhythm", logo: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=120&h=60&auto=format&fit=crop" },
-    { name: "CodeNest", logo: "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?q=80&w=120&h=60&auto=format&fit=crop" },
-    { name: "TechFlow", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=120&h=60&auto=format&fit=crop" },
-  ];
 
   return (
     <section id="partners" className="py-20 bg-background/80 relative overflow-hidden">
