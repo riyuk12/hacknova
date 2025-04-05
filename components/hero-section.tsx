@@ -142,7 +142,7 @@ export function HeroSection() {
             size="lg" 
             className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white px-8"
             onClick={() => {
-              toast.success("Registration opening soon!");
+              toast.success("Registration open!");
               window.open('https://unstop.com/p/nexify25-school-of-engineering-and-technology-sushant-university-gurgaon-1457285', '_blank');
             }}
           >

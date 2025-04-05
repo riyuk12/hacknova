@@ -45,6 +45,7 @@ import { PrizesSection } from '@/components/prizes-section';
 import { FAQSection } from '@/components/faq-section';
 import { HeroSection } from '@/components/hero-section';
 import { WhyJoinSection } from '@/components/why-join-section';
+import CoreTeamPage from '@/components/team';
 
 export default function Home() {
   return (
@@ -65,7 +66,9 @@ export default function Home() {
       
       {/* Prizes Section */}
       <PrizesSection />
-      
+
+      {/* team section */}
+      <CoreTeamPage />
       {/* FAQ Section */}
       <FAQSection />
       
