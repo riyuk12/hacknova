@@ -202,8 +202,8 @@ export default function CoreTeamPage() {
     members: [
       {
         name: "Pratham Gupta",
-        role: "Club President",
-        image: "https://media.discordapp.net/attachments/1161548351179853918/1358132965908942908/1734277029445.png?ex=67f2bb63&is=67f169e3&hm=80f5f76b4dbe3553a8f24eb85f5990a16d7cf098d9f7981ce0f7f4ab7119fe05&=&format=webp&quality=lossless",
+        role: "President",
+        image: "https://cdn.discordapp.com/attachments/1161548351179853918/1358158240059363438/Untitled_design.png?ex=67f2d2ed&is=67f1816d&hm=c77b92a9f226eaab3baecb2e006178935c6cab0017be28075c714e6a7f0098f2&",
         bio: "A curious mind and natural leader, driving the vision behind Zenith. They've transformed it into a thriving event community at Sushant University. With a strong belief in teamwork, innovation, and execution, they lead from the front — ensuring every event, including Nexify'25, is a standout experience.",
         social: { twitter: "#", linkedin: "https://www.linkedin.com/in/pratham4gupta/", github: "#" }
       },
