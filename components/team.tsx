@@ -34,10 +34,10 @@ export function TeamPage() {
         members: [
           { name: "Vaishnavi Sharma" },
           { name: "Bhartesh Tyagi" },
-          { name: "Mohit Pockriyal" },
-          { name: "Param" },
+          { name: "Mohit Pokhriyal" },
+          { name: "Param Jaiswal" },
           { name: "Radhika Yadav" },
-          { name: "Shourya" }
+          { name: "Shourya Vats" }
         ],
         bio: "Tasked with putting Nexify'25 on the map, the Outreach & Marketing Team drives visibility through creative campaigns, strategic partnerships, and high-impact digital outreach. From student communities to industry circles, they ensure the excitement around Nexify spreads far and wide — fueling participation, engagement, and buzz every step of the way."
       },
@@ -48,9 +48,9 @@ export function TeamPage() {
           { name: "Kanishk Gaur" },
           { name: "Kyathika Rao" },
           { name: "Navneet Kumar" },
-          { name: "Nisha" },
+          { name: "Nisha Patwal" },
           { name: "Prachi Sharma" },
-          { name: "Prashant" }
+          { name: "Prashant Kumar" }
         ],
         bio: "The Creative Team shapes the visual soul of Nexify'25. From branding and design to digital content and event themes, they craft every visual detail to make the experience bold, immersive, and unforgettable. Their work doesn't just catch eyes — it captures the spirit of innovation."
       },
@@ -61,9 +61,9 @@ export function TeamPage() {
           { name: "Chaitanya Kumar" },
           { name: "Jayana Batra" },
           { name: "Khush Kapoor" },
-          { name: "Panav" },
-          { name: "Shivam" },
-          { name: "Rupesh" }
+          { name: "Panav Singh" },
+          { name: "Shivam Mehta" },
+          { name: "Rupesh Rajput" }
         ],
         bio: "The backbone of Nexify'25, the Event Management Team handles everything from pre-event logistics to real-time coordination. Whether it's managing schedules, venues, or on-ground flow, they ensure the entire experience is smooth, structured, and memorable for every participant and guest."
       },
@@ -73,10 +73,10 @@ export function TeamPage() {
           { name: "Ayesha Gupta" },
           { name: "Drishika Aneja" },
           { name: "Kanisha Goyal" },
-          { name: "Mitanshi" },
-          { name: "Nitija" },
+          { name: "Mitanshi Dalal" },
+          { name: "Nitija Negi" },
           { name: "Swanti Kathpalia" },
-          { name: "Vanshu" },
+          { name: "Vanshu Yadav" },
           { name: "Riya Sethi" }
         ],
         bio: "The voice of Nexify'25 in the digital world, the Social Media Team drives engagement across platforms with creative content, real-time updates, and community interaction. From countdowns to highlights, they keep the momentum alive and the audience connected — one post at a time."
@@ -86,7 +86,7 @@ export function TeamPage() {
         members: [
           { name: "Raghav Sharma" },
           { name: "Samanyu" },
-          { name: "Soumay" },
+          { name: "Soumay Garg" },
           { name: "Vikram Yadav" }
         ],
         bio: "The storytellers of Nexify'25, the Media Team captures every moment through the lens. From candid shots to cinematic recaps, they document the energy, emotion, and excitement of the event — turning memories into visuals that inspire and resonate far beyond the venue."
