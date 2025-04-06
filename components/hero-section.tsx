@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Rocket, Calendar, MapPin } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { toast } from 'sonner';
+import Link from 'next/link';
 
 export function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -170,7 +171,9 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 1.2 }}
         >
           <MapPin className="h-5 w-5 text-purple-500" />
-          <span className="text-foreground/80">Sushant University, School of Engineering</span>
+          <Link href="https://maps.app.goo.gl/NNjVev7oDsHYYT638" target="_blank" className="text-foreground/80 hover:text-primary transition-colors">
+            <span className="text-foreground/80">Sushant University, School of Engineering and Technology</span>
+          </Link>
         </motion.div>
       </motion.div>
       

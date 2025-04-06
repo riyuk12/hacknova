@@ -69,7 +69,7 @@ export function TimelineSection() {
             Event <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500">Timeline</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Your 24-hour journey from idea to innovation. Here's what to expect at Nexify.
+          Unfold the journey of ideas to impact—Nexify Schedule.
           </p>
         </motion.div>
         

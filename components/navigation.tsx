@@ -51,7 +51,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            {['about', 'partners', 'timeline', 'prizes', 'faq'].map((item) => (
+            {['about', 'partners', 'timeline', 'prizes','team', 'faq'].map((item) => (
               <motion.button
                 key={item}
                 className="text-foreground/80 hover:text-primary transition-colors"

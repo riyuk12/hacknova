@@ -8,27 +8,40 @@ import React from "react";
 export function PartnersSection() {
   const platinumPartners = [
     {
-      name: "Sunstone",
-      logo: "https://media.discordapp.net/attachments/1293272278250815508/1357598685034320003/2.png?ex=67f1728d&is=67f0210d&hm=235a1e4e8925bf259872b1775262e0e1a6b5d55ab6022437c7f3a98174c33ebb&=&format=webp&quality=lossless",
+      name: "Suhant University",
+      logo: "/su.png",
     },
     {
-      name: "Suhant University",
-      logo: "https://media.discordapp.net/attachments/1293272278250815508/1357600168282689656/sushant.png?ex=67f173ef&is=67f0226f&hm=1f3b37780838a4e51e8f5be03466a8aa77ea00c572d51924f98eee8a0436101f&=&format=webp&quality=lossless",
+      name: "Sunstone",
+      logo: "/sunstone.png",
     },
+    {
+      name: "SET",
+      logo: "/SET.png",
+    },
+    {
+      name: "hex",
+      logo: "/hex.png",
+    },
+    {
+      name: "Education partner",
+      logo: "/7.png",
+    },
+
   ];
 
   const goldPartners = [
     {
       name: "Merelyn Studio",
-      logo: "https://media.discordapp.net/attachments/1293272278250815508/1357598685353218068/1.png?ex=67f0c9cd&is=67ef784d&hm=5a55b10292c687615aa25f0328940f4be41d22307937cd591288c19bb71b9dcb&=&format=webp&quality=lossless&width=1000&height=1000",
+      logo: "/Logos.png",
     },
     {
       name: "Smaaash",
-      logo: "https://scontent.fdel27-5.fna.fbcdn.net/v/t39.30808-6/484655494_2913048828850382_2783647709664895193_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=N2S0MJl4aLoQ7kNvwGoxcdR&_nc_oc=AdlfG4bCXH9FwwRh2YGVn98qzBCgIPyYEIVGiHUleil5i6C7dSQLSwYF2CuRCee0Ld7qK4-IbA3YFUG6jSfQ7uF8&_nc_zt=23&_nc_ht=scontent.fdel27-5.fna&_nc_gid=oUBFnPszNTvIfXib1yrq6w&oh=00_AYFVLaEsCaJyQSzRNlcI8KQcNv6Yih2jv-H9Nud7A_0BSQ&oe=67F5F408",
+      logo: "/Smaaash.png",
     },
     {
       name: "Huion",
-      logo: "https://upload.wikimedia.org/wikipedia/en/0/02/Huion_current_logo_vertical_arrangement.svg",
+      logo: "/Huion.png",
     },
   ];
 
