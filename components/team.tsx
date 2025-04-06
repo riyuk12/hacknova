@@ -203,28 +203,28 @@ export default function CoreTeamPage() {
       {
         name: "Pratham Gupta",
         role: "President",
-        image: "https://media.discordapp.net/attachments/1161548351179853918/1358132965908942908/1734277029445.png?ex=67f2bb63&is=67f169e3&hm=80f5f76b4dbe3553a8f24eb85f5990a16d7cf098d9f7981ce0f7f4ab7119fe05&=&format=webp&quality=lossless",
+        image: "/pratham.png",
         bio: "A curious mind and natural leader, driving the vision behind Zenith. They've transformed it into a thriving event community at Sushant University. With a strong belief in teamwork, innovation, and execution, they lead from the front — ensuring every event, including Nexify'25, is a standout experience.",
         social: { twitter: "#", linkedin: "https://www.linkedin.com/in/pratham4gupta/", github: "#" }
       },
       {
         name: "Aditya Minz",
         role: "Vice President",
-        image: "https://media.discordapp.net/attachments/1293272278250815508/1357965568975835220/3.png?ex=67f21f7d&is=67f0cdfd&hm=d81f4a73ab052628ced81d077098746dad92bf88e1c0a9e1a50ac072e7fda727&=&format=webp&quality=lossless",
+        image: "/aditya.webp",
         bio: "A founding force behind Zenith, he blends calm leadership with sharp execution. As Vice President, he ensures every moving part — from planning to on-ground coordination — runs like clockwork. Known for his reliability and problem-solving mindset, he’s the steady hand behind the chaos of innovation.",
         social: { twitter: "#", linkedin: "https://www.linkedin.com/in/adityaminz/", github: "#" }
       },
       {
         name: "Rishav Gupta",
         role: "Performance & Finance",
-        image: "https://media.discordapp.net/attachments/1293272278250815508/1357965568283644046/1.png?ex=67f21f7d&is=67f0cdfd&hm=4d35e0ae7a90522829a6c672816d8bb0ffc901ade1c38da42afa285166608a75&=&format=webp&quality=lossless",
+        image: "/rishav.webp",
         bio: "With a sharp mind for both numbers and strategy, they bridge the gap between execution and efficiency. From managing budgets to tracking team performance, they ensure everything stays on target. Equally at home with code and coordination, they bring structure, insight, and energy to every aspect of Zenith.",
         social: { twitter: "#", linkedin: "https://www.linkedin.com/in/rishavgupta14/", github: "#" }
       },
       {
         name: "Rajat Bose",
         role: "Head of Operations",
-        image: "https://cdn.discordapp.com/attachments/1293272278250815508/1357965568619057363/2.png?ex=67f21f7d&is=67f0cdfd&hm=a8c5062dd5bcbc81f59e1f282c953e445bfbaa9afdb27865785355dfd57061e3&=&format=webp&quality=lossless",
+        image: "/rajat.webp",
         bio: "A skilled full-stack developer who thrives on structure and speed. As Head of Operations, they ensure every part of the event — from logistics to live execution — runs seamlessly. Tech-savvy, solution-oriented, and always ahead of the curve, they keep the gears of Zenith turning smoothly.",
         social: { twitter: "#", linkedin: "https://www.linkedin.com/in/rajat-bose-9b73561b7/", github: "#" }
       }

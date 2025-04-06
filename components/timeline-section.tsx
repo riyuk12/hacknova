@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Clock, Coffee, Code, Lightbulb, Rocket, Trophy, Users, Utensils ,Mic,Award} from 'lucide-react';
+import { Calendar, Clock, Coffee, Code, Lightbulb, Rocket, Trophy, Users, Utensils ,Mic,Award, Info,MessageSquare,PauseCircle,Eye} from 'lucide-react';
 
 export function TimelineSection() {
   const ref = useRef(null);
@@ -14,25 +14,105 @@ export function TimelineSection() {
     {
       day: "Day 1 - Wednesday, April 16",
       events: [
-        { time: "9:00 AM", title: "Registrations & Check-in", icon: <Users className="h-5 w-5" />, description: "Arrive at Innovation Hall, collect your welcome pack and swag" },
-        { time: "11:00 AM", title: "Speaker Session", icon: <Mic className="h-5 w-5" />, description: "Listen to industry experts share insights and experiences" },
-        { time: "12:30 PM", title: "Hackathon Begins", icon: <Code className="h-5 w-5" />, description: "Start working on your projects and bring ideas to life" },
-        { time: "2:00 PM", title: "Lunch Break", icon: <Utensils className="h-5 w-5" />, description: "Enjoy a delicious meal to recharge" },
-        { time: "5:00 PM", title: "Evening Snacks", icon: <Coffee className="h-5 w-5" />, description: "Grab some light snacks and refreshments" },
-        { time: "8:00 PM", title: "Dinner", icon: <Utensils className="h-5 w-5" />, description: "Savor a hearty meal to keep going" },
-        { time: "Night", title: "Tea/Coffee Breaks", icon: <Coffee className="h-5 w-5" />, description: "Stay energized with warm beverages throughout the night" },
+        {
+          time: "9:00 AM – 10:30 AM",
+          title: "Registrations & Check-in",
+          icon: <Users className="h-5 w-5" />,
+          description: "Kickstart your hackathon journey at the Reception Lobby meet fellow innovators, and get ready for the action!"
+        },
+        {
+          time: "By 11:00 AM Sharp",
+          title: "Check-in Closes",
+          icon: <Clock className="h-5 w-5" />,
+          description: "Find your seat in Auditorium A-105 excitement is in the air as we prepare to begin!"
+        },
+        {
+          time: "11:00 AM – 12:00 PM",
+          title: "Opening Ceremony",
+          icon: <Mic className="h-5 w-5" />,
+          description: "Be inspired in Auditorium A-105 as our esteemed speakers set the tone for an incredible hackathon ahead."
+        },
+        {
+          time: "12:00 PM – 12:30 PM",
+          title: "Hackathon Briefing & Guidelines",
+          icon: <Info className="h-5 w-5" />,
+          description: "Understand the roadmap, rules, and resources in Auditorium A-105—let's build smart and fair!"
+        },
+        {
+          time: "12:30 PM",
+          title: "Hackathon Begins",
+          icon: <Code className="h-5 w-5" />,
+          description: "Fire up your laptops in D-Block 3rd Floor (Rooms 320/321)—the innovation sprint begins!"
+        },
+        {
+          time: "2:00 PM – 3:00 PM",
+          title: "Lunch Break",
+          icon: <Utensils className="h-5 w-5" />,
+          description: "Head to the Dining Area for a satisfying meal—fuel your body, feed your creativity."
+        },
+        {
+          time: "3:00 PM – 4:30 PM",
+          title: "Mentoring Session 1",
+          icon: <MessageSquare className="h-5 w-5" />,
+          description: "Get expert advice at the Hackathon Zone as mentors return—fine-tune your ideas!"
+        },
+        {
+          time: "5:30 PM – 6:00 PM",
+          title: "Evening Snacks",
+          icon: <Coffee className="h-5 w-5" />,
+          description: "Take a tasty break at the Dining Area/Refreshment Point—grab a bite, sip, and recharge."
+        },
+        {
+          time: "8:00 PM – 9:00 PM",
+          title: "Dinner",
+          icon: <Utensils className="h-5 w-5" />,
+          description: "Refuel with a wholesome dinner at the Dining Area before diving back into code mode."
+        },
+        {
+          time: "10:30 PM Onwards",
+          title: "Mentoring Session 2 + Night Support",
+          icon: <Lightbulb className="h-5 w-5" />,
+          description: "Get fresh perspectives from mentors and round-the-clock support at the Hackathon Zone."
+        },
+        {
+          time: "All Night",
+          title: "Coding Continues + Tea/Coffee Available",
+          icon: <Coffee className="h-5 w-5" />,
+          description: "Code through the night in the Hackathon Zone—stay sharp with a warm cup in hand!"
+        },
       ]
     },
     {
       day: "Day 2 - Thursday, April 17",
       events: [
-        { time: "7:00 AM", title: "Breakfast", icon: <Utensils className="h-5 w-5" />, description: "Start your day with a hearty breakfast" },
-        { time: "1:00 PM", title: "Snacks", icon: <Coffee className="h-5 w-5" />, description: "Quick energy boost to keep you going" },
-        { time: "3:00 PM - 6:00 PM", title: "Final Judging & Closing Ceremony", icon: <Award className="h-5 w-5" />, description: "Present your projects, witness the judging, and celebrate the winners" },
+        {
+          time: "7:00 AM – 8:00 AM",
+          title: "Breakfast",
+          icon: <Utensils className="h-5 w-5" />,
+          description: "Rise and shine in the Dining Area with a breakfast spread to power your final stretch!"
+        },
+        {
+          time: "10:30 AM",
+          title: "Code Freeze",
+          icon: <PauseCircle className="h-5 w-5" />,
+          description: "Step away from the keyboard it's time to wrap up in the Hackathon Zone and let your work speak."
+        },
+        {
+          time: "11:00 AM – 1:00 PM",
+          title: "Final Judging & Project Demos",
+          icon: <Eye className="h-5 w-5" />,
+          description: "Showcase your brilliance in Auditorium D-421—dazzle the judges and fellow hackers!"
+        },
+        {
+          time: "1:00 PM – 2:00 PM",
+          title: "Closing Ceremony & Prize Distribution",
+          icon: <Award className="h-5 w-5" />,
+          description: "Celebrate innovation and achievement in Auditorium D-421—witness the best ideas take the spotlight!"
+        }
       ]
     }
   ];
-
+  
   const container = {
     hidden: { opacity: 0 },
     show: {
