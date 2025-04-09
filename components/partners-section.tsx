@@ -20,8 +20,8 @@ export function PartnersSection() {
       logo: "/SET.png",
     },
     {
-      name: "hex",
-      logo: "/hex.png",
+      name: "Samatrix.io",
+      logo: "/Samatrix.png",
     },
     {
       name: "Education partner",
@@ -43,6 +43,10 @@ export function PartnersSection() {
       name: "Huion",
       logo: "/Huion.png",
     },
+    {
+      name:"Scaninfoga",
+      logo: "/saninfoga.png",
+    }
   ];
 
   return (
