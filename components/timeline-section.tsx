@@ -21,7 +21,7 @@ export function TimelineSection() {
           description: "Kickstart your hackathon journey at the Reception Lobby meet fellow innovators, and get ready for the action!"
         },
         {
-          time: "By 11:00 AM Sharp",
+          time: "11:00 AM",
           title: "Check-in Closes",
           icon: <Clock className="h-5 w-5" />,
           description: "Find your seat in Auditorium A-105 excitement is in the air as we prepare to begin!"
@@ -75,7 +75,7 @@ export function TimelineSection() {
           description: "Get fresh perspectives from mentors and round-the-clock support at the Hackathon Zone."
         },
         {
-          time: "All Night",
+          time: "Night Time",
           title: "Coding Continues + Tea/Coffee Available",
           icon: <Coffee className="h-5 w-5" />,
           description: "Code through the night in the Hackathon Zone—stay sharp with a warm cup in hand!"
